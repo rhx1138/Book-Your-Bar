@@ -2,13 +2,12 @@
 
 ## Application Description ##
 
-Password Creation App is a web app designed to generate passwords for users
+Book Your Bar is a web app that allows users to quickly find the highest rated bars and book them.
 
-* This passord generator allows users to select criteria for a password.
-* The password can be between 8 and 128 characters long.
-* It can allow the user to select lowercase, uppercase, numeric, and/or special characters.
-* Generating the password is as simple as clicking the button.
+* Quickly search different cities to find your perfect bar.
+* Feel confident in your choice with our advanced review filter. 
+* Booking is made easy once you have made your selection, just enter your info.
 
-[Password Creation App Website](https://book-your-bar.netlify.app/)
+[Book Your Bar Website](https://book-your-bar.netlify.app/)
 
 ![Preliminary Mockup](/assets/images/mockup.png "Mock-up") 
