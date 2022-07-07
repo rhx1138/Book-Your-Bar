@@ -10,4 +10,6 @@ Book Your Bar is a web app that allows users to quickly find the highest rated b
 
 [Book Your Bar Website](https://book-your-bar.netlify.app/)
 
-![Preliminary Mockup](/assets/images/mockup.png "Mock-up") 
+![Preliminary Mockup](/assets/images/img1.png "Mock-up")
+![Preliminary Mockup](/assets/images/img2.png "Mock-up") 
+![Preliminary Mockup](/assets/images/img3.png "Mock-up")  
