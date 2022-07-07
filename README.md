@@ -2,6 +2,8 @@
 
 ## Application Description ##
 
+### Working Branch
+
 Book Your Bar is a web app that allows users to quickly find the highest rated bars and book them.
 
 * Quickly search different cities, to find your perfect bar.
