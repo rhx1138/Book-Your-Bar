@@ -1,5 +1,35 @@
-/* 
-.input-group {
-   width: 50%;
-} */
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
 
+input[type="search"] {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 10px;
+
+}
+
+.btn-outline-dark {
+    border: 7px solid black;
+}
+
+.main-content-container {
+    margin-left: 40px;
+    width: 80%;
+}
+
+#submit {
+    background-color: #ff5d5d;
+}
+
+.next-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#next-button {
+    width: 80px;
+    background-color: darkgray;
+}
