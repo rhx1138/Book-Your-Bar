@@ -14,5 +14,10 @@ $(document).ready(function(){
   // container bootstrap-iso may need updated
   // 'top right' is creating an opposite effect
 
+  $(function () {
+    $('#datetimepicker3').datetimepicker({
+        format: 'LT'
+    });
+});
 
   
