@@ -37,3 +37,38 @@ input[type="search"] {
     width: 80px;
     background-color: darkgray;
 }
+
+/* input field for date and time */
+
+/* .container-fluid {
+    margin-top: 20px;
+} */
+
+.form-control {
+    border-radius: 0%;
+}
+
+#input-icons i {
+position: absolute;
+}
+
+#input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+.input-field {
+    text-align:right;
+  }
+
+ 
+  
