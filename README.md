@@ -1,6 +1,7 @@
 # Book-Your-Bar
 
 ## Application Description ##
+### New feature-branch with just two pages
 
 Book Your Bar is a web app that allows users to quickly find the highest rated bars and book them.
 

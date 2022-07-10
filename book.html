@@ -28,122 +28,68 @@
     </h1> <br><br>
     <!-- will add margin later -->
 
-    
 
-    <div class="main-content-container">
-        
+
+    <div class="main-content-container-book">
+
 
         <!-- dropdown form begins -->
-        <div class="bootstrap-iso">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="date-container">
+            <div class="bootstrap-iso">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
 
-                    <!-- Form code begins -->
-                    <form method="post">
-                        <div class="form-group" id="input-icons">
-                            <!-- Date input -->
-                            <label class="control-label" for="date"></label>
-                            <i class="fa fa-calendar icon form-control-feedback"></i>
-                            <input class="form-control input-field" id="date" name="date" placeholder="MM/DD/YYY"
-                                type="text" />
+                            <!-- Form code begins -->
+                            <form method="post">
+                                <div class="form-group" id="input-icons">
+                                    <!-- Date input -->
+                                    <label class="control-label" for="date"></label>
+                                    <i class="fa fa-calendar icon form-control-feedback"></i>
+                                    <input class="form-control input-field" id="date" name="date"
+                                        placeholder="MM/DD/YYY" type="text" />
 
-                        </div>
-                        <!-- Submit button -->
-                        <!-- add the comfirm.html -->
-                        <div class="form-group">
-                            
-                            <button id="submit" class="btn btn-primary " name="submit" type="submit"><strong>Find Times</strong></button>
-                        </div>
-                    </form>
-                    <!-- Form code ends -->
+                                </div>
+                                <!-- Submit button -->
+                                <!-- add the comfirm.html -->
+                                <div class="form-group">
 
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
+                                    <button id="submit" class="btn btn-primary " name="submit"
+                                        type="submit"><strong>Find Times</strong></button>
+                                </div>
+                            </form>
+                            <!-- Form code ends -->
 
-<!-- dropdown form ends -->
-
-<!-- search bar begins -->
-
-        <!-- <div class="input-group">
-            <input type="search" class="placeholder-white form-control rounded-0" placeholder="Search for a city"
-                aria-label="Search" aria-describedby="search-addon" />
-            <button type="button" id="submit" class="btn bg-red-500 text-white rounded-0">
-                <strong>Submit</strong></button>
-            </div> <br><br> -->
-
-
-            <!-- will add margin later -->
-<!-- submit button ends -->
-
-<!-- 
-        <main>
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3 bg-indigo-200">
-                            <h4 id="bar-name" class="text-5xl my-0 fw-normal"><strong>BAR 1</strong></h4>
-                        </div>
-                        <div class="card-body bg-yellow-200">
-                            <h1 class="card-title pricing-card-title">Review: ****</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Italian</li>
-                                <li>...</li>
-                                <li>...</li>
-                                <li>...</li>
-                            </ul>
-                            <button type="button"
-                                class="book-button w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3 bg-indigo-200">
-                            <h4 id="bar-name" class="text-5xl my-0 fw-normal"><strong>BAR 2</strong></h4>
-                        </div>
-                        <div class="card-body bg-purple-200">
-                            <h1 class="card-title pricing-card-title">Review: ***</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Mediterranean</li>
-                                <li>...</li>
-                                <li>...</li>
-                                <li>...</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3 bg-indigo-200">
-                            <h4 id="bar-name" class="text-5xl my-0 fw-normal"><strong>BAR 3</strong></h4>
-                        </div>
-                        <div class="card-body bg-green-200">
-                            <h1 class="card-title pricing-card-title">Review: ****</h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Steakhouse</li>
-                                <li>...</li>
-                                <li>...</li>
-                                <li>...</li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-
-        <div class="next-button-container">
-            <button id="next-button" type="button"
-                class="btn bg-gray-400 text-white rounded-0"><strong>Next</strong></button>
         </div>
-        
-    </div> -->
+        <!-- end of date container -->
+
+        <div class="list-container">
+            <div class="col">
+            <div class="list-group">
+                <!-- <a href="#" class="list-group-item list-group-item-action">01:00 p.m.</a> -->
+
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">01:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">02:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">03:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">04:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">05:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">06:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">07:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">08:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">09:00 p.m.</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">10:00 p.m.</a>
+            </div>
+            </div>
+        </div>
     </div>
+
+    <!-- dropdown form ends -->
+
+
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript"

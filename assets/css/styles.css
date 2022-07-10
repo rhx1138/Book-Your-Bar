@@ -55,6 +55,7 @@ position: absolute;
 #input-icons {
     width: 100%;
     margin-bottom: 10px;
+    margin-top: -20px;
 }
 
 .icon {
@@ -71,10 +72,15 @@ position: absolute;
   }
 
 
-/* .datepicker {
+.datepicker {
     top: 170.9915px !important;
     left: 224.989px !important;
     display: block !important;
-} */
+}
  
-  
+.main-content-container-book {
+    display: flex;
+    flex-direction: row;
+    margin-left: 256px;
+    width: 80%;
+}
