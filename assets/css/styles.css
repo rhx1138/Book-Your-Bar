@@ -109,6 +109,15 @@ position: absolute;
     background-color: #ff5d5d;
 }
 
+#back-button {
+    background-color: #ffde59;
+}
+
 .confirm-text {
     color: white
+}
+
+.success-text {
+    color: white;
+    font-size:xx-large;
 }

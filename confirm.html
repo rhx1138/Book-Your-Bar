@@ -29,7 +29,9 @@
     <!-- Table Reservation Form -->
     <section id="book-a-table" class="book-a-table">
         <div class="container" data-aos="fade-up">
-            <div class="confirm-text"><h1>Confirm Your Info</h1></div>
+            <div class="confirm-text">
+                <h1>Confirm Your Info</h1>
+            </div>
 
 
             <form action="" method="post" role="form">
@@ -54,7 +56,10 @@
                     </div>
                 </div>
 
-                <button type="submit" id="confirm-button" class="btn btn-primary float-right mt-3">Book a Table</button>
+                <button onclick="location.href='/success.html'" type="button" id="confirm-button"
+                    class="btn btn-primary float-right mt-3"><strong>Book a Table</strong></button>
+                    <button onclick="location.href='/index.html'" type="button" id="back-button"
+                    class="btn btn-primary float-left mt-3"><strong>Back Home</strong></button>
             </form>
         </div>
     </section>
