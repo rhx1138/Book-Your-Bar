@@ -19,9 +19,9 @@ $(document).ready(function(){
         $('.row').append(` <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3 bg-indigo-200">
-                <h4 id="bar-name" class="text-5xl my-0 fw-normal"><strong>${bar.name}</strong></h4>
+                <h4 id="bar-name" class="text-2xl my-0 fw-normal"><strong>${bar.name}</strong></h4>
             </div>
-            <div class="card-body bg-yellow-200">
+            <div class="card-body bg-green-200">
             <img class="bar-card-image" src= ${bar.image_url} alt = "${bar.name}">
             <h1 class="card-title bar-card-content pricing-card-title">Rating: ${bar.rating}</h1>
             <button id=${bar.name} type="button"
