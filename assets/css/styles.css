@@ -36,43 +36,4 @@ input[type="search"] {
 #next-button {
     width: 80px;
     background-color: darkgray;
-<<<<<<< HEAD
 }
-=======
-}
-
-/* input field for date and time */
-
-/* .container-fluid {
-    margin-top: 20px;
-} */
-
-.form-control {
-    border-radius: 0%;
-}
-
-#input-icons i {
-position: absolute;
-}
-
-#input-icons {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.icon {
-    padding: 15px;
-    margin-top: 25px;
-}
-
-.input-field {
-    padding: 10px;
-}
-
-.input-field {
-    text-align:right;
-  }
-
- 
-  
->>>>>>> 0751a0ae783fde3f10f7c7da7002507a0e7e342c
