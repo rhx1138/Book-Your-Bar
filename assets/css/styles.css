@@ -39,7 +39,7 @@ input[type="search"] {
 }
 
 
-#map {
-    width: 200px;
-    height:30%;
+#googleMap {
+    width: 400px;
+    height:50%;
 }
