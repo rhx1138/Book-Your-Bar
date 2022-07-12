@@ -25,7 +25,7 @@ $(document).ready(function(){
             <img class="bar-card-image" src= ${bar.image_url} alt = "${bar.name}">
             <h1 class="card-title bar-card-content pricing-card-title">Rating: ${bar.rating}</h1>
             <button id="${bar.name}" type="button"
-                class="book-button bar-card-content w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
+                class="outline outline-4 book-button bar-card-content w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
         </div>
         </div>
     </div>`)
