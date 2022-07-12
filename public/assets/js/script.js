@@ -24,7 +24,7 @@ $(document).ready(function(){
             <div class="card-body bg-green-200">
             <img class="bar-card-image" src= ${bar.image_url} alt = "${bar.name}">
             <h1 class="card-title bar-card-content pricing-card-title">Rating: ${bar.rating}</h1>
-            <button id=${bar.name} type="button"
+            <button id="${bar.name}" type="button"
                 class="book-button bar-card-content w-100 btn btn-lg btn-outline-dark rounded-0">Book</button>
         </div>
         </div>
@@ -71,6 +71,9 @@ $(document).ready(function(){
    $('#submit').on('click', function() {
 
     let userSelectedCity = $('input[type="search"]').val();
+    if(!userSelectedCity) {
+      return;
+    }
     fetchYelpData(userSelectedCity);
    })
   })

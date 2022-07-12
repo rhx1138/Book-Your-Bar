@@ -27,6 +27,16 @@
     </h1> <br><br>
     <!-- will add margin later -->
    
+    <section class="hidden" id="confirmation-info">
+        <div class="container">
+            <div id="confirmation-details">
+            
+        </div>
+            <button class="btn btn-info mt-3 float-left" id="confirmation-back">Go Back</button>
+        </div>
+       
+    </section>
+    
     <!-- Table Reservation Form -->
     <section id="book-a-table" class="book-a-table">
         
@@ -37,7 +47,7 @@
             </div>
 
 
-            <form action="" method="post" role="form">
+            <form id="book-table-form" >
                 <div class="form-row">
                     <div class="col-lg-4 col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
@@ -59,7 +69,7 @@
                     </div>
                 </div>
 
-                <button onclick="location.href='/success.html'" type="button" id="confirm-button"
+                <button type="submit" id="confirm-button"
                     class="btn btn-primary float-right mt-3"><strong>Book a Table</strong></button>
                     <button onclick="location.href='/public/index.html'" type="button" id="back-button"
                     class="btn btn-primary float-left mt-3"><strong>Back Home</strong></button>

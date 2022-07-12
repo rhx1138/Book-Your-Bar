@@ -8,8 +8,14 @@ input[type="search"] {
     border-left: none;
     border-right: none;
     margin-right: 10px;
+    /* color: black; */
 
 }
+/* 
+input[type="search"]:focus {
+    background: transparent;
+  
+} */
 
 .btn-outline-dark {
     border: 7px solid black;
@@ -142,4 +148,14 @@ position: absolute;
 
 .card-one {
     background-image: url('/public/assets/images/bar-1.jpg')
+}
+
+
+.hidden {
+    display: none;
+}
+
+#confirmation-info {
+    color: white;
+    font-size: 40px;
 }
