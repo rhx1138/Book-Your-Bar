@@ -159,3 +159,8 @@ position: absolute;
     color: white;
     font-size: 40px;
 }
+
+#map {
+    height:400px;
+    width:50%;
+  }

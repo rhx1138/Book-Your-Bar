@@ -35,3 +35,37 @@ $(document).ready(function() {
 
 });
 
+//map
+//map referance
+// let map = null;
+// function initMap() {
+//     let location = new Object();
+//     navigator.geolocation.getCurrentPosition(function (pos) {
+//         location.lat = pos.coords.latitude;
+//         location.long = pos.coords.longitude;
+//         //var location = { lat: 39.7684, 86.1581};
+//         map = new google.maps.Map(document.getElementById("map"), {
+//             zoom: 8,
+//             center: { lat: 39.7684, lng: -86.1581 }
+//         });
+
+//         var marker = new google.maps.Marker({
+//             position: { lat: 39.7684, lng: -86.1581 },
+//             map: map
+//         });
+//     }
+// }
+function initMap(){
+    const map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 37.422, lng: -122.084},
+      zoom: 16
+    });
+
+    const trexMarker = new google.maps.Marker({
+      position: {lat: 37.421903, lng: -122.084674},
+      map: map,
+      title: 'Stan the T-Rex'
+    });
+}
+  
+  window.initMap = initMap;
