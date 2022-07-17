@@ -8,6 +8,7 @@ $(document).ready(function() {
     }
 
     function showConfirmation(userData) {
+        $('#confirmation-details').text('') // clear previous text
         console.log('userdata', userData);
         $('#confirmation-details').append(`<h1>Thanks for booking ${userData.name}!</h1>
         <p>Your table for ${userData.num} is booked!
