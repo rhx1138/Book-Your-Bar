@@ -160,9 +160,15 @@ position: absolute;
     font-size: 40px;
 }
 
+#map-container {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
 #map {
     height:400px;
-    width:50%;
+    width:60%;
     margin: 100px;
     padding: 10px;
     float: right;

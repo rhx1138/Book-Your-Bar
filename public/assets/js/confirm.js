@@ -66,5 +66,5 @@ function initMap(){
       title: 'Resturant Location'
     });
 }
-  
+  console.log(initMap)
   window.initMap = initMap;
