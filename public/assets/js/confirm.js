@@ -66,5 +66,23 @@ function initMap(){
       title: 'Resturant Location'
     });
 }
+
+function mapsSelector() {
+    if (
+      /* if we're on iOS, open in Apple Maps */
+      navigator.platform.indexOf("iPhone") != -1 ||
+      navigator.platform.indexOf("iPad") != -1 ||
+      navigator.platform.indexOf("iPod") != -1
+    )
+      window.open(
+        "http://maps.apple.com/?q=Broccoli+Bill's&sll=40.00537,-86.08867&z=10&t=s"
+      );
+    /* else use Google */
+    // window.open("https://maps.google.com/maps?daddr=40.00537,-86.08867&amp;ll=");
+    else
+      window.open(
+        "https://maps.google.com/maps/place/Broccoli+Bill's/@40.005404,-86.0910243,17z/data=!3m1!4b1!4m5!3m4!1s0x8814b1fcb424599f:0xba2e242f8178eb65!8m2!3d40.0053999!4d-86.0888356"
+      );
+  }
   console.log(initMap)
   window.initMap = initMap;
