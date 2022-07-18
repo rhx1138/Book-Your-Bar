@@ -163,4 +163,8 @@ position: absolute;
 #map {
     height:400px;
     width:50%;
+    margin: 100px;
+    padding: 10px;
+    float: right;
+
   }
