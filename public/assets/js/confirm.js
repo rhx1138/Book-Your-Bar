@@ -56,11 +56,11 @@ $(document).ready(function() {
 //     }
 // }
 function initMap(){
-    const map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: 37.422, lng: -122.084},
-      zoom: 16
+      zoom: 5
     });
-    const marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
       position: {lat: 37.421903, lng: -122.084674},
       map: map,
       title: 'Resturant Location'
