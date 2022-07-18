@@ -164,7 +164,13 @@ position: absolute;
     height: 50%;
     display: flex;
     justify-content: center;
+}
 
+@media screen and (max-width: 767px){
+    #map-container {
+        width: 150%;
+        justify-items: center;
+    }
 }
 #map {
     height:400px;
