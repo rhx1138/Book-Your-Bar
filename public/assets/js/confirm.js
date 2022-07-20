@@ -1,14 +1,14 @@
 $(document).ready(function() {
     let barName = localStorage.getItem('barName')
     $('.bar-name').text(barName);
-
+// once info is entered, reveals the hidden class with user data confirmation
     function toggleHiddenClass() {
         $('#book-a-table').toggleClass('hidden')
         $('#confirmation-info').toggleClass('hidden')  
     }
 
     function showConfirmation(userData) {
-        $('#confirmation-details').text('') // clear previous text
+        $('#confirmation-details').text('') // clears previous text
         console.log('userdata', userData);
         $('#confirmation-details').append(`<h1>Thanks for booking ${userData.name}!</h1>
         <p>Your table for ${userData.num} is booked!

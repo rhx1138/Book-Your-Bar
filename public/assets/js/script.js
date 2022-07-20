@@ -2,17 +2,7 @@ const YELP_API_KEY ='E9sq0Y7E8_DboWKY5PkIjLMcx1-sJa5YAkrg4W3GnoHBTNZjxErdzN-RD0l
 
 
 $(document).ready(function () {
-  var date_input = $('input[name="date"]'); //our date input has the name "date"
-  var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
-  var options = {
-    format: 'mm/dd/yyyy',
-    orientation: "top right",
-    container: container,
-    todayHighlight: true,
-    autoclose: true,
-  };
-  date_input.datepicker(options);
-
+  // renders the cards on the page when city is entered in the search bar 
   function renderCards(data) {
 
     $('.row').empty()
@@ -35,6 +25,8 @@ $(document).ready(function () {
     }
   }
 
+  // when book button is clicked, it will take user to the booking page for that bar
+
   function addBookListeners() {
     $('.book-button').each(function () {
 
@@ -45,6 +37,8 @@ $(document).ready(function () {
       })
     })
   }
+
+  // fetches the data from the yelp api and renders the cards
 
   function fetchYelpData(userCity) {
     fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location="${userCity}"&term=restaurants&categories=bars`, {
@@ -69,7 +63,7 @@ $(document).ready(function () {
     console.log('THIS IS AFTER FETCH');
 
   }
-
+// when the user clicks the search button, it will fetch the data from the yelp api and render the cards
   $('#submit').on('click', function () {
 
     let userSelectedCity = $('input[type="search"]').val();
